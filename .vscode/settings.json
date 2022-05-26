@@ -1,0 +1,8 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "unistd.h": "c",
+        "getopt.h": "c",
+        "stdlib.h": "c"
+    }
+}

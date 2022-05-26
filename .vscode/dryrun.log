@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/mnt/d/Desktop/TinyFarm'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/mnt/d/Desktop/TinyFarm'
+ 
