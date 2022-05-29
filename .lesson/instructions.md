@@ -37,7 +37,7 @@ Gli argomenti che opzionalmente possono essere passati al processo MasterWorker 
 
 *  `-q qlen` specifica la lunghezza del buffer produttori/consumatori (valore di default 8)
 
- * `-t delay`specifica un tempo in millisecondi che intercorre tra l’invio di due richieste successive ai thread Worker da parte del thread Master (serve per il debugging, valore di default 0)
+ * `-t delay` specifica un tempo in millisecondi che intercorre tra una scrittura e la successiva sul buffer produttori/consumatori da parte del thread Master (serve per il debugging, valore di default 0)
 
 Per leggere le opzioni sulla riga di comando utilizzare la funzione `getopt(3)`; un esempio d’uso si trova in fondo alla pagina man
 
@@ -55,11 +55,13 @@ La dimensione dei file in input non è limitata ad un valore specifico. Si suppo
 
 ### Consegna del progetto
 
-La consegna deve avvenire esclusivamente mediante [GitHub](https://www.github.com/login). Se non lo avete già [createvi un account](https://docs.github.com/en/get-started/quickstart/hello-world) e create un repository privato dedicato a questo compito. Aggiungete come collaboratore al repository l’utente `Laboratorio2B` in modo che i docenti abbiano accesso al codice. *IMPORTANTE: la consegna effettiva del progetto per un dato appello consiste nello scrivere l'url del vostro progetto nell'apposito contenitore consegna su moodle.* 
+La consegna deve avvenire esclusivamente mediante [GitHub](https://www.github.com/login). Se non lo avete già [createvi un account](https://docs.github.com/en/get-started/quickstart/hello-world) e create un repository privato dedicato a questo compito. Aggiungete come collaboratore al repository l’utente `Laboratorio2B` in modo che i docenti abbiano accesso al codice. **IMPORTANTE:** la consegna effettiva del progetto per un dato appello consiste nello scrivere l'url per la clonazione del vostro progetto nell'apposito contenitore consegna su moodle. L'url deve essere della forma `git@github.com:user/progetto.git` (non deve quindi iniziare per `https`). Dopo la data di consegna **non dovete** fare altri commit al progetto.
 
-Il repository deve contenere tutti i file del progetto oltre ai file menzionati sopra. Il makefile deve essere scritto in modo che la sequenza di istruzioni sulla linea di comando:
+
+Il repository deve contenere tutti i file del progetto oltre ai file menzionati sopra. Il makefile deve essere scritto in modo che la sequenza di istruzioni sulla linea di comando (`progetto` indica il nome del repository, voi usate un nome meno generico):
 ```
 git clone git@github.com:user/progetto.git
+cd progetto
 make
 ./collector.py &      # parte il server in background
 ./farm z?.dat         # invia i file z0.dat e z1.dat
