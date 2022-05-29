@@ -62,4 +62,5 @@ int xpthread_mutex_destroy(pthread_mutex_t *mutex, int linea, char *file);
 int xpthread_mutex_lock(pthread_mutex_t *mutex, int linea, char *file);
 int xpthread_mutex_unlock(pthread_mutex_t *mutex, int linea, char *file);
 
-
+//Utilities
+int max(int val, int max);

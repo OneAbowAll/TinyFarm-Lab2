@@ -1,4 +1,6 @@
 # Tiny Farm
-Progetto finale anno 2021/22 per le persone fike che hanno superato gli esoneri, come me 😎😎😉😊😎
+Progetto finale anno 2021/22
 
-- 👋 NOTHING TO SEE HERE YET 👋 -
+## 🥡📚 To - do 📘
+- Iniziare sever collector.py
+- Far comunicare workers con server

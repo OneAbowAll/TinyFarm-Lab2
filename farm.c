@@ -1,4 +1,5 @@
 //Master Worker
+#define _GNU_SOURCE
 #include <unistd.h>
 #include <sys/types.h>
 
@@ -7,6 +8,7 @@
 #define QUI __LINE__, __FILE__
 #define MAX_NAME_LENGTH 255
 
+/*
 int getopt(int argc, char * const argv[],
           const char *optstring);
 
@@ -14,11 +16,14 @@ extern char *optarg;
 extern int optind, opterr, optopt;
 
 #include <getopt.h>
+*/
 
 typedef struct{  
   char** files;
   int *cIndex;
+
   int qlen;
+  int delay;
 
   pthread_mutex_t *mutex;
   sem_t *sem_free;
@@ -26,12 +31,21 @@ typedef struct{
 } dati;
 
 void *worker(void *arg);
+void intHandler(int s);
+void freeMemory(dati d);
 
+volatile sig_atomic_t stop = 0;
 //void logBuffer(char** buffer, int qlen, int cIndex, int pIndex, sem_t *free, sem_t *item);
 
 int main(int argc, char *argv[])
 {
+	//Gestione segnali
+	struct sigaction sa;
 
+	sigaction(SIGINT, NULL, &sa);
+	sa.sa_handler = &intHandler;
+	sigaction(SIGINT, &sa, NULL);
+	
   #pragma region Input-Management
 
   int opt;
@@ -42,15 +56,15 @@ int main(int argc, char *argv[])
     switch (opt)
     {
     case 'n':
-      nthread =  atoi(optarg);
+      nthread = max(atoi(optarg), 1);
       break;
      
     case 'q':
-      qlen =  atoi(optarg);
+      qlen =  max(atoi(optarg), 1);
       break;
     
     case 't':
-      delay =  atoi(optarg);
+      delay =  max(atoi(optarg), 0)*1000;
       break;
 
     default: /* Caso ? */
@@ -81,7 +95,6 @@ int main(int argc, char *argv[])
 	for(int i=0; i<qlen; i++)
 			files[i] = malloc(sizeof(char)*MAX_NAME_LENGTH);
 	
-	
   int pIndex = 0, cIndex = 0;
 
   pthread_t t[nthread];
@@ -89,7 +102,9 @@ int main(int argc, char *argv[])
 
   shm.files = files;
   shm.cIndex = &cIndex;
+	
   shm.qlen = qlen;
+  shm.delay = delay;
 
   shm.mutex = &mutex;
   shm.sem_free = &sem_free;
@@ -103,21 +118,29 @@ int main(int argc, char *argv[])
 	
   //Inserisci nel buffer tutti i 
   for (int i = optind; i < argc; i++)
-  {		
+  {	
+		if(stop) break;
+		
     xsem_wait(&sem_free, QUI);
+		
     strcpy(files[pIndex++ % qlen], argv[i]);
     fprintf(stdout, "Scritto nel buffer %s \n", files[(pIndex-1) % qlen]);
 
     xsem_post(&sem_items, QUI);
+
+		usleep(delay);
   }
 
 	for (int i = 0; i < nthread; i++)
   {
     xsem_wait(&sem_free, QUI);
+		
     strcpy(files[pIndex++ % qlen], "-1");
     fprintf(stdout, "Scritto nel buffer %s \n", files[(pIndex-1) % qlen]);
 		
     xsem_post(&sem_items, QUI);
+		
+		//usleep(delay);
   }
 	
   for (int j = 0; j < nthread; j++)
@@ -126,26 +149,69 @@ int main(int argc, char *argv[])
     xpthread_join(t[j], NULL, QUI);
   }
 
+	freeMemory(shm);
 	return 0;
+}
+
+void freeMemory(dati d){
+	/*Libero lo spazio allocato alle singole stringhe 
+		e poi libero lo spazio per l'array stesso */
+	
+	for(int i=0; i<d.qlen; i++)
+		free(d.files[i]);
+	free(d.files);
+
+	exit(1);
+
+	/*Onestamente non so se sia il metodo giusto per fare questa cosa 
+		ma per me ha senso e valgrind conferma */
+}
+
+void intHandler(int s){
+	if(stop)
+		printf("\n== Segnale SIGINT == Procedura di chiusura in corso, attendere...\n");
+	else
+		printf("\n== Segnale SIGINT == Procedura di chiusura iniziata...\n");
+	
+	stop = 1;
 }
 
 void *worker(void *arg){ 
   dati *d = (dati *)arg;
-
+	
+	int f;
 	char *nomeFile = "-1";
-	do{
+	long sum = 0;
+	
+	while(true){
   	xsem_wait(d->sem_items, QUI);
   	xpthread_mutex_lock(d->mutex, QUI);
-
+		
 		nomeFile = d->files[*(d->cIndex) % d->qlen];
 		*(d->cIndex) += 1;
 
-		fprintf(stdout, "Salve un thread qualsiasi e ho appena letto il file %s \n", nomeFile);
-
-		
   	xpthread_mutex_unlock(d->mutex, QUI);
   	xsem_post(d->sem_free, QUI);
-	}while(strcmp(nomeFile, "-1") != 0);
+
+		if(strcmp(nomeFile, "-1") == 0) break;
+		
+		f = open(nomeFile, O_RDONLY);
+		ssize_t e;
+		
+		sum = 0; int cont = 0; long n;
+		while(true){
+			e = read(f, &n, sizeof(long));
+			if(e != sizeof(long)) break;
+			
+			sum += n * cont;
+			cont += 1;
+		}
+		xclose(f, QUI);
+
+		fprintf(stdout, "Sono un thread qualsiasi e ho calcolcato che il file %s contiene la somma %ld. \n", nomeFile, sum);
+		
+		usleep(d->delay);
+	}
 
   pthread_exit(NULL);
 }
