@@ -54,3 +54,5 @@ dkms.conf
 # Replit shit
 .replit
 replit.nix
+.breakpoints
+.ccls-cache
