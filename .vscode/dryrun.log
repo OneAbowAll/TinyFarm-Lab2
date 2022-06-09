@@ -1,5 +1,7 @@
-make --dry-run --keep-going --print-directory
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/mnt/d/Desktop/TinyFarm'
-make: Nothing to be done for 'all'.
+gcc -g -Wall -O -std=c99   -c -o farm.o farm.c
+gcc -g -Wall -O -std=c99   -c -o xerrori.o xerrori.c
+echo "caccamerda"
 make: Leaving directory '/mnt/d/Desktop/TinyFarm'
  

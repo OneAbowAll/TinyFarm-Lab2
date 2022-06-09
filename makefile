@@ -13,6 +13,7 @@ all: $(EXECS)
 
 # dipendenze
 farm: farm.o xerrori.o
+	@ echo "caccamerda"
 
 # target che cancella eseguibili e file oggetto
 clean:
