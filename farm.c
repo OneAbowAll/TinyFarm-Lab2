@@ -177,6 +177,29 @@ int main(int argc, char *argv[])
         return 0;
 }
 
+void freeMemory(dati d){
+	/*Libero lo spazio allocato alle singole stringhe 
+		e poi libero lo spazio per l'array stesso */
+	
+	for(int i=0; i<d.qlen; i++)
+		free(d.files[i]);
+	free(d.files);
+
+	exit(1);
+
+	/*Onestamente non so se sia il metodo giusto per fare questa cosa 
+		ma per me ha senso e valgrind conferma */
+}
+
+void intHandler(int s){
+	if(stop)
+		printf("\n== Segnale SIGINT == Procedura di chiusura in corso, attendere...\n");
+	else
+		printf("\n== Segnale SIGINT == Procedura di chiusura iniziata...\n");
+	
+	stop = 1;
+}
+
 void closeServer(){
         //Connessione al server
         struct sockaddr_in serv;

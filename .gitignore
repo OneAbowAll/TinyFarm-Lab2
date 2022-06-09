@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Replit shit
+.replit
+replit.nix
+.breakpoints
+.ccls-cache

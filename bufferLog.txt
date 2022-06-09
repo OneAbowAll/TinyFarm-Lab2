@@ -1,0 +1,8550 @@
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 0
+
+	 [0] =>  <-- cIndex <-- pIndex
+	 [1] => 
+	 [3] => 
+	 [2] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => a <-- cIndex
+	 [1] =>  <-- pIndex
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] =>  <-- pIndex
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] => c
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] =>  <-- cIndex
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => 3
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] =>  <-- cIndex <-- pIndex
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d <-- cIndex
+	 [4] =>  <-- pIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] =>  <-- pIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] =>  <-- pIndex
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] =>  <-- cIndex
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1 <-- cIndex
+	 [7] =>  <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => a <-- pIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => a <-- cIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => b <-- pIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 0
+
+	 [0] =>  <-- cIndex <-- pIndex
+	 [1] => 
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => a <-- cIndex
+	 [1] =>  <-- pIndex
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] =>  <-- pIndex
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] =>  <-- pIndex
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] => c
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 6
+	 Sem Items => 2
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] => d
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 2
+	 cIndex => 2
+	 pIndex => 4
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] => d
+	 [4] =>  <-- pIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => 5
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d <-- cIndex
+	 [4] => e
+	 [5] =>  <-- pIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] => f
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => 6
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] =>  <-- cIndex <-- pIndex
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] =>  <-- cIndex
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] =>  <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 7
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] =>  <-- cIndex <-- pIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => a <-- pIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => b <-- pIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => c <-- pIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => c <-- cIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 0
+
+	 [0] =>  <-- cIndex <-- pIndex
+	 [1] => 
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => a <-- cIndex
+	 [1] =>  <-- pIndex
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] =>  <-- pIndex
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] =>  <-- pIndex
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] => c
+	 [3] => d
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d <-- cIndex
+	 [4] =>  <-- pIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] => d
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d <-- cIndex
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] =>  <-- pIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] =>  <-- pIndex
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 5
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 7
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] => -1
+	 [7] =>  <-- pIndex
+}
+
+{
+	Produttore
+	 Sem Free => 5
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 0
+
+	 [0] => a <-- pIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 5
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 6
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 6
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => b <-- cIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => 1
+
+	 [0] => -1
+	 [1] => b <-- cIndex <-- pIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => c <-- pIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => d <-- pIndex
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => e <-- pIndex
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 6
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => f <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 5
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 4
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Produttore
+	 Sem Free => 3
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 3
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => 1
+
+	 [0] => -1
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 3
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 3
+	 Sem Items => 2
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 3
+	 Sem Items => 2
+	 cIndex => 5
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 4
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 5
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 6
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 0
+
+	 [0] =>  <-- cIndex <-- pIndex
+	 [1] => 
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => a <-- cIndex
+	 [1] =>  <-- pIndex
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] =>  <-- pIndex
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] => c
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] =>  <-- pIndex
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] =>  <-- cIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 4
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] =>  <-- cIndex <-- pIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] =>  <-- pIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d <-- cIndex
+	 [4] => e
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] =>  <-- pIndex
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1 <-- cIndex
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1 <-- cIndex
+	 [7] =>  <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] =>  <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => a <-- pIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => b <-- pIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => c <-- pIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => d <-- pIndex
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => e <-- pIndex
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => f <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 0
+
+	 [0] =>  <-- cIndex <-- pIndex
+	 [1] => 
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => a <-- cIndex
+	 [1] =>  <-- pIndex
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] =>  <-- pIndex
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] =>  <-- cIndex
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] => c
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => 3
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] =>  <-- cIndex <-- pIndex
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d <-- cIndex
+	 [4] =>  <-- pIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] =>  <-- pIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 1
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] =>  <-- pIndex
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] => -1
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1 <-- cIndex
+	 [7] =>  <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 6
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 0
+
+	 [0] => a <-- cIndex <-- pIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => a <-- cIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => b <-- pIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => c <-- pIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 6
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => d <-- pIndex
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 2
+	 cIndex => 2
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => e <-- pIndex
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 5
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => f <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => f <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 2
+	 cIndex => 0
+	 pIndex => 2
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 0
+
+	 [0] =>  <-- cIndex <-- pIndex
+	 [1] => 
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => a <-- cIndex
+	 [1] =>  <-- pIndex
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] =>  <-- pIndex
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] =>  <-- pIndex
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 5
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] => c
+	 [3] => d
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => 4
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] => d
+	 [4] =>  <-- pIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] =>  <-- pIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 6
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d <-- cIndex
+	 [4] => e
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 6
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] => f
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 6
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 6
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] => f
+	 [6] =>  <-- pIndex
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1 <-- cIndex
+	 [7] =>  <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1 <-- cIndex
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => a <-- pIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => b <-- pIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 2
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => c <-- pIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => c <-- cIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 0
+
+	 [0] =>  <-- cIndex <-- pIndex
+	 [1] => 
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => a
+	 [1] =>  <-- cIndex
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => 1
+
+	 [0] => a
+	 [1] =>  <-- cIndex <-- pIndex
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] =>  <-- pIndex
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] =>  <-- pIndex
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d <-- cIndex
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d <-- cIndex
+	 [4] =>  <-- pIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] =>  <-- cIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 5
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] =>  <-- cIndex <-- pIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] =>  <-- pIndex
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] =>  <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 7
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] =>  <-- cIndex <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => a <-- pIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => b <-- pIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => c <-- cIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => c <-- cIndex <-- pIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => d <-- pIndex
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => d <-- cIndex
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 0
+
+	 [0] =>  <-- cIndex <-- pIndex
+	 [1] => 
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => a <-- cIndex
+	 [1] =>  <-- pIndex
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] =>  <-- pIndex
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] =>  <-- pIndex
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] => c
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] => d
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d <-- cIndex
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d <-- cIndex
+	 [4] =>  <-- pIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] =>  <-- pIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] =>  <-- pIndex
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g <-- cIndex
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 7
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] =>  <-- cIndex <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] =>  <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => a <-- pIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => a <-- cIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => b <-- pIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => c <-- pIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => d <-- pIndex
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => e <-- pIndex
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => e <-- cIndex
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 0
+
+	 [0] =>  <-- cIndex <-- pIndex
+	 [1] => 
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => a <-- cIndex
+	 [1] =>  <-- pIndex
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 6
+	 Sem Items => 2
+	 cIndex => 0
+	 pIndex => 2
+
+	 [0] => a <-- cIndex
+	 [1] => b
+	 [2] =>  <-- pIndex
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 5
+	 Sem Items => 3
+	 cIndex => 0
+	 pIndex => 3
+
+	 [0] => a <-- cIndex
+	 [1] => b
+	 [2] => c
+	 [3] =>  <-- pIndex
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 4
+	 Sem Items => 4
+	 cIndex => 0
+	 pIndex => 4
+
+	 [0] => a <-- cIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] =>  <-- pIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 3
+	 Sem Items => 5
+	 cIndex => 0
+	 pIndex => 5
+
+	 [0] => a <-- cIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] =>  <-- pIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 2
+	 Sem Items => 6
+	 cIndex => 0
+	 pIndex => 6
+
+	 [0] => a <-- cIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] =>  <-- pIndex
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 1
+	 Sem Items => 7
+	 cIndex => 0
+	 pIndex => 7
+
+	 [0] => a <-- cIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] =>  <-- pIndex
+}
+
+{
+	Produttore
+	 Sem Free => 0
+	 Sem Items => 8
+	 cIndex => 0
+	 pIndex => 0
+
+	 [0] => a <-- cIndex <-- pIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 0
+	 Sem Items => 7
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => b <-- cIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 0
+	 Sem Items => 7
+	 cIndex => 1
+	 pIndex => 1
+
+	 [0] => i
+	 [1] => b <-- cIndex <-- pIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 0
+	 Sem Items => 7
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1
+	 [2] => c <-- cIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 0
+	 Sem Items => 8
+	 cIndex => 2
+	 pIndex => 2
+
+	 [0] => i
+	 [1] => -1
+	 [2] => c <-- cIndex <-- pIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 1
+	 Sem Items => 7
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => d <-- cIndex
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 0
+	 Sem Items => 8
+	 cIndex => 3
+	 pIndex => 3
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => d <-- cIndex <-- pIndex
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 1
+	 Sem Items => 7
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 2
+	 Sem Items => 6
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 2
+	 Sem Items => 5
+	 cIndex => 6
+	 pIndex => 4
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => e <-- pIndex
+	 [5] => f
+	 [6] => g <-- cIndex
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 2
+	 Sem Items => 5
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => e
+	 [5] => f
+	 [6] => g <-- cIndex
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 2
+	 Sem Items => 4
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => f
+	 [6] => g
+	 [7] => h <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 2
+	 Sem Items => 4
+	 cIndex => 0
+	 pIndex => 5
+
+	 [0] => i <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => f <-- pIndex
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 3
+	 Sem Items => 4
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => i <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 4
+	 Sem Items => 3
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 6
+	 Sem Items => 2
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 6
+	 Sem Items => 2
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 0
+
+	 [0] =>  <-- cIndex <-- pIndex
+	 [1] => 
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => a <-- cIndex
+	 [1] =>  <-- pIndex
+	 [2] => 
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] =>  <-- pIndex
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b <-- cIndex
+	 [2] => c
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] =>  <-- pIndex
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c <-- cIndex
+	 [3] => 
+	 [4] => 
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] =>  <-- cIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 4
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] =>  <-- cIndex <-- pIndex
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e <-- cIndex
+	 [5] =>  <-- pIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d <-- cIndex
+	 [4] => e
+	 [5] => 
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] => 
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f <-- cIndex
+	 [6] =>  <-- pIndex
+	 [7] => 
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g <-- cIndex
+	 [7] => 
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g <-- cIndex
+	 [7] =>  <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => a
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => a <-- pIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => a <-- cIndex
+	 [1] => b
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => i <-- cIndex
+	 [1] => b <-- pIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1 <-- cIndex
+	 [2] => c
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => i
+	 [1] => -1 <-- cIndex
+	 [2] => c <-- pIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => d <-- pIndex
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => d
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => e
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => e <-- pIndex
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => f <-- pIndex
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => f
+	 [6] => g
+	 [7] => h
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => g <-- pIndex
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => h
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => h <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 7
+
+	 [0] => i
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => h <-- cIndex <-- pIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => i <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => i <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1 <-- pIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex <-- pIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1 <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1 <-- pIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1 <-- pIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1 <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1 <-- pIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1 <-- pIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1 <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1 <-- pIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1 <-- pIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1 <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1 <-- pIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1 <-- pIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1 <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1 <-- pIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1 <-- pIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1 <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1 <-- pIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1 <-- pIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1 <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1 <-- pIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1 <-- pIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1 <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1 <-- pIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1 <-- pIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1 <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1 <-- pIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1 <-- pIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1 <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1 <-- pIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1 <-- pIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1 <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1 <-- pIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1 <-- pIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1 <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1 <-- pIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1 <-- pIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1 <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => 2
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1 <-- pIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 2
+	 pIndex => 3
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1 <-- cIndex
+	 [3] => -1 <-- pIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 3
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 3
+	 pIndex => 4
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1 <-- cIndex
+	 [4] => -1 <-- pIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 4
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 4
+	 pIndex => 5
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1 <-- cIndex
+	 [5] => -1 <-- pIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 5
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 5
+	 pIndex => 6
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1 <-- cIndex
+	 [6] => -1 <-- pIndex
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 6
+	 pIndex => 7
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1 <-- cIndex
+	 [7] => -1 <-- pIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 7
+	 pIndex => 0
+
+	 [0] => -1 <-- pIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1 <-- cIndex
+}
+
+{
+	Consumatore 
+	 Sem Free => 7
+	 Sem Items => 1
+	 cIndex => 0
+	 pIndex => -1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Produttore
+	 Sem Free => 7
+	 Sem Items => 0
+	 cIndex => 0
+	 pIndex => 1
+
+	 [0] => -1 <-- cIndex
+	 [1] => -1 <-- pIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
+
+{
+	Consumatore 
+	 Sem Free => 8
+	 Sem Items => 0
+	 cIndex => 1
+	 pIndex => -1
+
+	 [0] => -1
+	 [1] => -1 <-- cIndex
+	 [2] => -1
+	 [3] => -1
+	 [4] => -1
+	 [5] => -1
+	 [6] => -1
+	 [7] => -1
+}
