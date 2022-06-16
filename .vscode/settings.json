@@ -3,6 +3,10 @@
     "files.associations": {
         "unistd.h": "c",
         "getopt.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "xsocket.h": "c",
+        "socket.h": "c",
+        "xerrori.h": "c",
+        "inet.h": "c"
     }
 }

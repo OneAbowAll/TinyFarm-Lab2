@@ -12,8 +12,11 @@ EXECS=farm
 all: $(EXECS)
 
 # dipendenze
-farm: farm.o xerrori.o
-	@ echo "caccamerda"
+farm: farm.o xerrori.o xsocket.o
+
+xsocket.o: xsocket.c xsocket.h
+
+xerrori.o: xerrori.c xerrori.h
 
 # target che cancella eseguibili e file oggetto
 clean:

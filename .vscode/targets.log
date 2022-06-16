@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun  9 21:59:25 2022
+# Make data base, printed on Thu Jun 16 10:24:36 2022
 
 # Variables
 
@@ -15,7 +15,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
 # default
 .SHELLFLAGS := -c
 # environment
@@ -35,7 +35,7 @@ SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # environment
-_ = /mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin/code
+_ = /home/bolla/.vscode-server/bin/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/node
 # makefile (from 'makefile', line 4)
 CFLAGS = -g -Wall -O -std=c99
 # makefile (from 'makefile', line 1)
@@ -55,11 +55,11 @@ VSCODE_CWD = /mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/bolla/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/remote-cli:/home/bolla/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/AdoptOpenJDK/jre-8.0.275.1-hotspot/bin:/mnt/c/Program Files/AdoptOpenJDK/jre-11.0.9.11-hotspot/bin:/mnt/c/Program Files (x86)/AdoptOpenJDK/jre-8.0.275.01-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/User/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/User/.cargo/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/.dotnet/tools:/mnt/c/Users/User/AppData/Roaming/npm:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/snap/bin
+PATH = /home/bolla/.vscode-server/bin/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/bin/remote-cli:/home/bolla/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/AdoptOpenJDK/jre-8.0.275.1-hotspot/bin:/mnt/c/Program Files/AdoptOpenJDK/jre-11.0.9.11-hotspot/bin:/mnt/c/Program Files (x86)/AdoptOpenJDK/jre-8.0.275.01-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/User/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/User/.cargo/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Users/User/.dotnet/tools:/mnt/c/Users/User/AppData/Roaming/npm:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/snap/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-39f43215-1f4c-4cb3-ab93-45eef8b65c7d.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-c581ae18-9a71-46e3-b5ca-25969d10b20c.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -73,8 +73,6 @@ PWD = /mnt/d/Desktop/TinyFarm
 # default
 .LOADED := 
 # environment
-WT_SESSION = 9819d0f5-d54c-44d1-8d39-646d28f77a49
-# environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /home/bolla
@@ -83,7 +81,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = bolla
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -95,7 +93,7 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 1
+SHLVL = 0
 # makefile (from 'makefile', line 3)
 CC = gcc
 # default
@@ -105,7 +103,7 @@ USER = bolla
 # makefile
 .DEFAULT_GOAL := all
 # environment
-NAME = Code
+NAME = DESKTOP-G3DCHLK
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -128,8 +126,6 @@ MFLAGS = -pqrR
 +F = $(notdir $+)
 # environment
 VSCODE_HANDLES_SIGPIPE = true
-# environment
-WT_PROFILE_ID = {2c4de342-38b7-51cf-b940-2309a097f518}
 # default
 MAKEFILES := 
 # automatic
@@ -155,7 +151,7 @@ VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # environment
 WSL_DISTRO_NAME = Ubuntu
 # variable set hash-table stats:
-# Load=72/1024=7%, Rehash=0, Collisions=4/101=4%
+# Load=70/1024=7%, Rehash=0, Collisions=4/96=4%
 
 # Pattern-specific Variable Values
 
@@ -163,9 +159,9 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Directories
 
-# . (device 15, inode 1970324836990230): 18 files, no impossibilities.
+# . (device 15, inode 1970324836990230): 25 files, no impossibilities.
 
-# 18 files, no impossibilities in 1 directories.
+# 25 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -173,10 +169,9 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Files
 
-# Not a target:
-xerrori.o:
+xerrori.o: xerrori.c xerrori.h
 #  Implicit rule search has been done.
-#  Last modified 2022-06-06 16:33:17.9238257
+#  Last modified 2022-06-14 17:59:21.7717158
 #  File has been updated.
 #  Successfully updated.
 
@@ -185,9 +180,7 @@ all: farm
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
-#  Needs to be updated (-q is set).
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  Successfully updated.
 
 .PHONY: clean
 #  Implicit rule search has not been done.
@@ -195,15 +188,30 @@ all: farm
 #  File has not been updated.
 
 # Not a target:
-.SUFFIXES:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+xsocket.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-14 19:08:48.3091725
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+xsocket.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-14 19:08:26.9070461
+#  File has been updated.
+#  Successfully updated.
 
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-06 16:25:02.1784094
+#  Last modified 2022-06-16 10:24:32.5253597
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+xerrori.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-14 17:59:08.5249194
 #  File has been updated.
 #  Successfully updated.
 
@@ -213,62 +221,54 @@ makefile:
 #  Modification time never checked.
 #  File has not been updated.
 
+# Not a target:
+xerrori.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-14 19:08:36.5772195
+#  File has been updated.
+#  Successfully updated.
+
 clean:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'makefile', line 20):
+#  recipe to execute (from 'makefile', line 23):
 	rm -f $(EXECS) *.o  *.zip
 
-farm: farm.o xerrori.o
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
-#  File does not exist.
+farm: farm.o xerrori.o xsocket.o
+#  Implicit rule search has been done.
+#  Last modified 2022-06-14 18:30:27.1407654
 #  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := farm
-# automatic
-# % := 
-# automatic
-# * := 
-# automatic
-# + := farm.o xerrori.o
-# automatic
-# | := 
-# automatic
-# < := farm.o
-# automatic
-# ^ := farm.o xerrori.o
-# automatic
-# ? := farm.o xerrori.o
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
-#  recipe to execute (from 'makefile', line 16):
-	@ echo "caccamerda"
+#  Successfully updated.
 
 # Not a target:
 farm.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-06 16:33:17.7504473
+#  Last modified 2022-06-14 18:30:27.0467503
+#  File has been updated.
+#  Successfully updated.
+
+xsocket.o: xsocket.c xsocket.h
+#  Implicit rule search has been done.
+#  File does not exist.
 #  File has been updated.
 #  Successfully updated.
 
 # files hash-table stats:
-# Load=9/1024=1%, Rehash=0, Collisions=2/27=7%
+# Load=14/1024=1%, Rehash=0, Collisions=3/38=8%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 221 B / avg = 8 B
-# current buf: size = 8162 B / used = 221 B / count = 26 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 33 / storage = 302 B / avg = 9 B
+# current buf: size = 8162 B / used = 302 B / count = 33 / avg = 9 B
 
-# strcache performance: lookups = 40 / hit rate = 35%
+# strcache performance: lookups = 55 / hit rate = 40%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=1/40=2%
-# Finished Make data base on Thu Jun  9 21:59:25 2022
+# Load=33/8192=0%, Rehash=0, Collisions=1/55=2%
+# Finished Make data base on Thu Jun 16 10:24:36 2022
 
  
