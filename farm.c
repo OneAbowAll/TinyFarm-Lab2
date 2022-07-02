@@ -170,13 +170,8 @@ void intHandler(int s)
 void closeServer()
 {
   int skt = connect_to_collector();
-  if(skt < 0)
-    termina("Errore apertura connessione");
-
   writen(skt, "!", 1);
-
-  if (close(skt) < 0)
-    perror("Errore chiusura socket");
+  close_connection(skt);
 }
 
 void freeMemory(dati d)
@@ -197,7 +192,7 @@ void freeMemory(dati d)
 void *worker(void *arg)
 {
   dati *d = (dati *)arg;
-  int skt = connect_to_collector();
+  int skt;
   
   int f;
   char *nomeFile = "-1";
@@ -239,8 +234,9 @@ void *worker(void *arg)
     xclose(f, QUI);
     print_debug_buffer(stdout, "Calcolcato il file %s => somma %ld. \n", nomeFile, sum);
 
-    // Avverto il server che sto inviando dei dati
-    writen(skt, "?", 1);
+    //Client invia dati al server -------------------------------------------------------
+    skt = connect_to_collector();
+    writen(skt, "?", 1);    // Avverto il server che sto inviando dei dati
 
     // Invio primo i primi 4 bytes della somma e successivamnte i bytes rimanenti
     // Per capire il perchè di questa scelta scendere a fine file (*)
@@ -248,13 +244,11 @@ void *worker(void *arg)
 
     // Invio Nome File
     writen(skt, nomeFile, MAX_NAME_LENGTH);
+    close_connection(skt);
 
     fprintf(stdout, "Inviato risultato file: %s\n", nomeFile);
-    usleep(d->delay);
+    usleep(d->delay); //Mi serve ????
   }
-
-  if (close(skt) < 0)
-    perror("Errore chiusura socket");
 
   pthread_exit(NULL);
 }

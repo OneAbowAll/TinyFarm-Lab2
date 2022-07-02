@@ -51,8 +51,8 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# Replit shit
-.replit
+# Roba di
+*.replit
 replit.nix
-.breakpoints
-.ccls-cache
+*.breakpoints
+*.ccls-cache

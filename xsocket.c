@@ -2,7 +2,7 @@
 #include "xerrori.h"
 
 #define HOST "127.0.0.1"
-#define PORT 65434
+#define PORT 57581
 
 int connect_to_collector(){
   // Connessione al server
@@ -17,9 +17,18 @@ int connect_to_collector(){
   serv.sin_addr.s_addr = inet_addr(HOST);
 
   if (connect(skt, (struct sockaddr *)&serv, sizeof(serv)) < 0)
-    return -1;
+    termina("Errore apertura connessione");
 
   return skt;
+}
+
+int close_connection(int skt){
+  if (close(skt) < 0){
+    perror("Errore chiusura socket");
+    return -1;
+  }
+
+  return 1;
 }
 
 void send_long(int sktFD, long n){
