@@ -36,6 +36,22 @@ FILE *xfopen(const char *path, const char *mode, int linea, char *file) {
 }
 
 // ----------- operazioni su file descriptors
+int xopen(const char *path, int oflag, int linea, char *file) {
+  int f = open(path, oflag);
+
+  if(f < 0) {
+    
+    fprintf(stderr,"== %d == Linea: %d, File: %s\n",getpid(), linea, file);
+
+    if(errno != EEXIST) 
+      fprintf(stderr,"\t Il file %s non esiste.\n", path);
+    else
+      perror("\t Errore apertura file");
+  }
+  return f;
+}
+
+
 void xclose(int fd, int linea, char *file) {
   int e = close(fd);
   if(e!=0) {

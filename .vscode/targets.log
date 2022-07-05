@@ -1,13 +1,12 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
- 
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu May 26 16:08:58 2022
+# Make data base, printed on Tue Jul  5 10:46:17 2022
 
 # Variables
 
@@ -36,7 +35,7 @@ SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # environment
-_ = /home/bolla/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/node
+_ = /home/bolla/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node
 # makefile (from 'makefile', line 4)
 CFLAGS = -g -Wall -O -std=c99
 # makefile (from 'makefile', line 1)
@@ -56,11 +55,11 @@ VSCODE_CWD = /mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/bolla/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/remote-cli:/home/bolla/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/AdoptOpenJDK/jre-8.0.275.1-hotspot/bin:/mnt/c/Program Files/AdoptOpenJDK/jre-11.0.9.11-hotspot/bin:/mnt/c/Program Files (x86)/AdoptOpenJDK/jre-8.0.275.01-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/User/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/User/.cargo/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Users/User/.dotnet/tools:/mnt/c/Users/User/AppData/Roaming/npm:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/snap/bin
+PATH = /home/bolla/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/bolla/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/AdoptOpenJDK/jre-8.0.275.1-hotspot/bin:/mnt/c/Program Files/AdoptOpenJDK/jre-11.0.9.11-hotspot/bin:/mnt/c/Program Files (x86)/AdoptOpenJDK/jre-8.0.275.01-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/User/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/User/.cargo/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Users/User/.dotnet/tools:/mnt/c/Users/User/AppData/Roaming/npm:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/snap/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-699ee462-f9cf-4bc7-b0ce-e355fa815b51.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-dd2cc818-9dff-46dc-8f93-b116592ca1c4.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -82,7 +81,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = bolla
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -162,9 +161,9 @@ MOTD_SHOWN = update-motd
 
 # Directories
 
-# . (device 15, inode 1970324836990230): 18 files, no impossibilities.
+# . (device 15, inode 1970324836990230): 25 files, no impossibilities.
 
-# 18 files, no impossibilities in 1 directories.
+# 25 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -172,10 +171,9 @@ MOTD_SHOWN = update-motd
 
 # Files
 
-# Not a target:
-xerrori.o:
+xerrori.o: xerrori.c xerrori.h
 #  Implicit rule search has been done.
-#  Last modified 2022-05-26 11:49:25.6738508
+#  Last modified 2022-07-04 18:53:57.5316781
 #  File has been updated.
 #  Successfully updated.
 
@@ -192,10 +190,32 @@ all: farm
 #  File has not been updated.
 
 # Not a target:
+xsocket.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-02 16:40:19.9364321
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+xsocket.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-02 16:33:24.6292673
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-26 16:08:49.6200854
+#  Last modified 2022-07-02 17:31:59.0171768
 #  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+xerrori.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-04 18:53:47.8709203
+#  File has been updated.
+ 
 #  Successfully updated.
 
 # Not a target:
@@ -204,41 +224,54 @@ makefile:
 #  Modification time never checked.
 #  File has not been updated.
 
+# Not a target:
+xerrori.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-16 11:12:14.3428741
+#  File has been updated.
+#  Successfully updated.
+
 clean:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'makefile', line 19):
+#  recipe to execute (from 'makefile', line 23):
 	rm -f $(EXECS) *.o  *.zip
 
-farm: farm.o xerrori.o
+farm: farm.o xerrori.o xsocket.o
 #  Implicit rule search has been done.
-#  Last modified 2022-05-26 16:08:50.8109455
+#  Last modified 2022-07-04 19:07:56.31587
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 farm.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-26 16:08:32.3710837
+#  Last modified 2022-07-04 19:07:56.2118695
+#  File has been updated.
+#  Successfully updated.
+
+xsocket.o: xsocket.c xsocket.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-04 18:53:57.6546802
 #  File has been updated.
 #  Successfully updated.
 
 # files hash-table stats:
-# Load=9/1024=1%, Rehash=0, Collisions=2/26=8%
+# Load=14/1024=1%, Rehash=0, Collisions=3/38=8%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 25 / storage = 210 B / avg = 8 B
-# current buf: size = 8162 B / used = 210 B / count = 25 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 32 / storage = 290 B / avg = 9 B
+# current buf: size = 8162 B / used = 290 B / count = 32 / avg = 9 B
 
-# strcache performance: lookups = 39 / hit rate = 35%
+# strcache performance: lookups = 55 / hit rate = 41%
 # hash-table stats:
-# Load=25/8192=0%, Rehash=0, Collisions=1/39=3%
-# Finished Make data base on Thu May 26 16:08:58 2022
+# Load=32/8192=0%, Rehash=0, Collisions=1/55=2%
+# Finished Make data base on Tue Jul  5 10:46:17 2022
 
  

@@ -25,6 +25,7 @@ void xtermina(const char *s, int linea, char *file);
 FILE *xfopen(const char *path, const char *mode, int linea, char *file);
 
 // operazioni su file descriptors
+int xopen(const char *path, int oflag, int linea, char *file);
 void xclose(int fd, int linea, char *file);
 
 // operazioni su processi
