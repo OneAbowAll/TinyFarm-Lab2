@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul  2 15:30:07 2022
+# Make data base, printed on Tue Jul  5 10:46:17 2022
 
 # Variables
 
@@ -15,7 +15,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
 # default
 .SHELLFLAGS := -c
 # environment
@@ -35,7 +35,7 @@ SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # environment
-_ = /mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin/code
+_ = /home/bolla/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node
 # makefile (from 'makefile', line 4)
 CFLAGS = -g -Wall -O -std=c99
 # makefile (from 'makefile', line 1)
@@ -55,11 +55,11 @@ VSCODE_CWD = /mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/bolla/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/bolla/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/AdoptOpenJDK/jre-8.0.275.1-hotspot/bin:/mnt/c/Program Files/AdoptOpenJDK/jre-11.0.9.11-hotspot/bin:/mnt/c/Program Files (x86)/AdoptOpenJDK/jre-8.0.275.01-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/User/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/User/.cargo/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/.dotnet/tools:/mnt/c/Users/User/AppData/Roaming/npm:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/snap/bin
+PATH = /home/bolla/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/bolla/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/AdoptOpenJDK/jre-8.0.275.1-hotspot/bin:/mnt/c/Program Files/AdoptOpenJDK/jre-11.0.9.11-hotspot/bin:/mnt/c/Program Files (x86)/AdoptOpenJDK/jre-8.0.275.01-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/User/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/User/.cargo/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Users/User/.dotnet/tools:/mnt/c/Users/User/AppData/Roaming/npm:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/snap/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-5c008954-27fb-4ffa-9ac6-4377bc39b3c2.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-dd2cc818-9dff-46dc-8f93-b116592ca1c4.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -72,8 +72,6 @@ VSCODE_PIPE_LOGGING = true
 PWD = /mnt/d/Desktop/TinyFarm
 # default
 .LOADED := 
-# environment
-WT_SESSION = ea052d52-e093-432e-947d-3d1dfbacae4e
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -95,7 +93,7 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 1
+SHLVL = 0
 # makefile (from 'makefile', line 3)
 CC = gcc
 # default
@@ -105,7 +103,7 @@ USER = bolla
 # makefile
 .DEFAULT_GOAL := all
 # environment
-NAME = Code
+NAME = DESKTOP-G3DCHLK
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -128,8 +126,6 @@ MFLAGS = -pqrR
 +F = $(notdir $+)
 # environment
 VSCODE_HANDLES_SIGPIPE = true
-# environment
-WT_PROFILE_ID = {2c4de342-38b7-51cf-b940-2309a097f518}
 # default
 MAKEFILES := 
 # automatic
@@ -154,8 +150,10 @@ TERM = xterm-256color
 VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # environment
 WSL_DISTRO_NAME = Ubuntu
+# environment
+MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=72/1024=7%, Rehash=0, Collisions=4/98=4%
+# Load=71/1024=7%, Rehash=0, Collisions=4/97=4%
 
 # Pattern-specific Variable Values
 
@@ -163,9 +161,9 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Directories
 
-# . (device 15, inode 1970324836990230): 26 files, no impossibilities.
+# . (device 15, inode 1970324836990230): 25 files, no impossibilities.
 
-# 26 files, no impossibilities in 1 directories.
+# 25 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -175,7 +173,7 @@ WSL_DISTRO_NAME = Ubuntu
 
 xerrori.o: xerrori.c xerrori.h
 #  Implicit rule search has been done.
-#  Last modified 2022-07-02 12:02:05.5873078
+#  Last modified 2022-07-04 18:53:57.5316781
 #  File has been updated.
 #  Successfully updated.
 
@@ -194,29 +192,30 @@ all: farm
 # Not a target:
 xsocket.c:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-02 12:01:10.737993
+#  Last modified 2022-07-02 16:40:19.9364321
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 xsocket.h:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-16 11:20:30.5567429
+#  Last modified 2022-07-02 16:33:24.6292673
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-02 12:01:48.5971179
+#  Last modified 2022-07-02 17:31:59.0171768
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 xerrori.c:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-16 11:12:13.7678742
+#  Last modified 2022-07-04 18:53:47.8709203
 #  File has been updated.
+ 
 #  Successfully updated.
 
 # Not a target:
@@ -242,20 +241,20 @@ clean:
 
 farm: farm.o xerrori.o xsocket.o
 #  Implicit rule search has been done.
-#  Last modified 2022-07-02 12:02:05.8258217
+#  Last modified 2022-07-04 19:07:56.31587
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 farm.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-02 12:02:05.3427829
+#  Last modified 2022-07-04 19:07:56.2118695
 #  File has been updated.
 #  Successfully updated.
 
 xsocket.o: xsocket.c xsocket.h
 #  Implicit rule search has been done.
-#  Last modified 2022-07-02 12:02:05.7198189
+#  Last modified 2022-07-04 18:53:57.6546802
 #  File has been updated.
 #  Successfully updated.
 
@@ -267,12 +266,12 @@ xsocket.o: xsocket.c xsocket.h
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 33 / storage = 302 B / avg = 9 B
-# current buf: size = 8162 B / used = 302 B / count = 33 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 32 / storage = 290 B / avg = 9 B
+# current buf: size = 8162 B / used = 290 B / count = 32 / avg = 9 B
 
-# strcache performance: lookups = 56 / hit rate = 41%
+# strcache performance: lookups = 55 / hit rate = 41%
 # hash-table stats:
-# Load=33/8192=0%, Rehash=0, Collisions=1/56=2%
-# Finished Make data base on Sat Jul  2 15:30:07 2022
+# Load=32/8192=0%, Rehash=0, Collisions=1/55=2%
+# Finished Make data base on Tue Jul  5 10:46:17 2022
 
  

@@ -40,10 +40,13 @@ int xopen(const char *path, int oflag, int linea, char *file) {
   int f = open(path, oflag);
 
   if(f < 0) {
-    perror("Errore apertura file");
-    fprintf(stderr,"== %d == Linea: %d, File: %s\n",getpid(), linea, file);
     
-    if(errno != EEXIST) exit(1);
+    fprintf(stderr,"== %d == Linea: %d, File: %s\n",getpid(), linea, file);
+
+    if(errno != EEXIST) 
+      fprintf(stderr,"\t Il file %s non esiste.\n", path);
+    else
+      perror("\t Errore apertura file");
   }
   return f;
 }

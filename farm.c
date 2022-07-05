@@ -8,11 +8,14 @@
 #define QUI __LINE__, __FILE__
 #define MAX_NAME_LENGTH 255
 
+//Consigliabile usare solo per debugging su console separate
 #define DEBUG_THRD 0
 #define DEBUG_BUFF 0
+#define RICH_INFO 0
 
 #define print_debug_buffer if(DEBUG_BUFF) fprintf
 #define print_debug_thread if(DEBUG_BUFF) fprintf
+#define print_info if(RICH_INFO) fprintf
 
 
 typedef struct
@@ -21,7 +24,7 @@ typedef struct
   int *cIndex;
 
   int qlen;
-  int delay;
+  //int delay;
 
   pthread_mutex_t *mutex;
   sem_t *sem_free;
@@ -29,7 +32,7 @@ typedef struct
 } dati;
 
 void *worker(void *arg);
-void intHandler(int s);
+void *signalHandler(void *arg);
 void closeServer();
 void freeMemory(dati d);
 
@@ -73,20 +76,32 @@ int main(int argc, char *argv[])
     return 1;
   }
 
-  fprintf(stdout, "Parametri attuali => nthread: %d; qlen: %d; delay = %d \n", nthread, qlen, delay / 1000);
-
-  fprintf(stdout, "File Selezionati => [");
-  for (int i = optind; i < argc; i++)
-    (i != argc-1) ? fprintf(stdout, "%s, ", argv[i]) : fprintf(stdout, "%s", argv[i]);
-  fprintf(stdout, "]\n\n");
+  print_info(stdout, "Parametri attuali => nthread: %d; qlen: %d; delay = %d \n", nthread, qlen, delay / 1000);
+  
+  print_info(stdout, "File Selezionati => [");
+  for (int i = optind; i < argc; i++){
+    if(i != argc-1){
+      print_info(stdout, "%s, ", argv[i]);
+    }else{
+      print_info(stdout, "%s", argv[i]);
+    }
+  }
+  print_info(stdout, "]\n\n");
 
   #pragma endregion
 
-  // Gestione segnali
+  /* Gestione segnali
   struct sigaction sa;
   sigaction(SIGINT, NULL, &sa);
   sa.sa_handler = &intHandler;
   sigaction(SIGINT, &sa, NULL);
+  */
+
+  //Gestione segnali
+  sigset_t maschera;
+  sigemptyset(&maschera);
+  sigaddset(&maschera, SIGINT);
+  pthread_sigmask(SIG_BLOCK, &maschera, NULL);
 
   // Gestione sistema produttori consumatori
   sem_t sem_free, sem_items;
@@ -101,30 +116,34 @@ int main(int argc, char *argv[])
     files[i] = malloc(sizeof(char) * MAX_NAME_LENGTH);
 
   int pIndex = 0, cIndex = 0;
-
-  pthread_t t[nthread];
+  pthread_t t[nthread]; pthread_t sigHandler;
   dati shm;
 
   shm.files = files;
   shm.cIndex = &cIndex;
 
   shm.qlen = qlen;
-  shm.delay = delay;
+  //shm.delay = delay;
 
   shm.mutex = &mutex;
   shm.sem_free = &sem_free;
   shm.sem_items = &sem_items;
 
+  //Faccio partire il thread gestore di segnali
+  xpthread_create(&sigHandler, NULL, signalHandler, NULL, QUI);
+
+  //Creo e faccio partire i workers
   for (int i = 0; i < nthread; i++)
   {
     xpthread_create(&t[i], NULL, worker, &shm, QUI);
     print_debug_thread(stdout, "Creato Thread %ld. \n", t[i]);
   }
 
-  // Inserisci nel buffer tutti i
+  //Inserisci nel buffer tutti i files
   for (int i = optind; i < argc; i++)
   {
-    if(stop) break;
+    usleep(delay); //Teoricamente questo potrebbe andare anche in fondo al for,
+    if(stop) break; //Dipende se vogliamo avere la possibilità di chiudere ancora prima di aver elaborato il primo file
 
     xsem_wait(&sem_free, QUI);
 
@@ -132,10 +151,9 @@ int main(int argc, char *argv[])
     print_debug_buffer(stdout, "Scritto nel buffer %s \n", files[(pIndex - 1) % qlen]);
 
     xsem_post(&sem_items, QUI);
-
-    usleep(delay);
   }
 
+  //Avverto i workers che i file sono finiti
   for (int i = 0; i < nthread; i++)
   {
     xsem_wait(&sem_free, QUI);
@@ -146,25 +164,36 @@ int main(int argc, char *argv[])
     xsem_post(&sem_items, QUI);
   }
 
+  //Chiudo i thread workers
   for (int j = 0; j < nthread; j++)
   {
     xpthread_join(t[j], NULL, QUI);
     print_debug_thread(stdout, "Joinato il Thread %ld. \n", t[j]);
   }
-
+  
+  //Chiudo il signalHandler
+  pthread_kill(sigHandler, SIGINT);
+  xpthread_join(sigHandler, NULL, QUI);
+  
   closeServer();
   freeMemory(shm);
+  sleep(1); //Serve solo a dare tempo al server per scrivere meglio l'output in console. (Quando stiamo usando una solo terminale)
   return 0;
 }
 
-void intHandler(int s)
+void *signalHandler(void *args)
 {
-  if (stop)
-    printf("\n== Segnale SIGINT == Procedura di chiusura in corso, attendere...\n");
-  else
-    printf("\n== Segnale SIGINT == Procedura di chiusura iniziata...\n");
+  sigset_t set;
+  sigfillset(&set);
+
+  int s, e;
+  do{
+    e = sigwait(&set, &s);
+    if(e < 0) perror("Errore nel signal wait!!");
+  }while(s != SIGINT);
 
   stop = 1;
+  pthread_exit(NULL);
 }
 
 void closeServer()
@@ -184,9 +213,6 @@ void freeMemory(dati d)
   free(d.files);
 
   // exit(1);
-
-  /*Onestamente non so se sia il metodo giusto per fare questa cosa
-          ma per me ha senso e valgrind conferma */
 }
 
 void *worker(void *arg)
@@ -246,8 +272,8 @@ void *worker(void *arg)
     writen(skt, nomeFile, MAX_NAME_LENGTH);
     close_connection(skt);
 
-    fprintf(stdout, "Inviato risultato file: %s\n", nomeFile);
-    usleep(d->delay); //Mi serve ????
+    print_info(stdout, "Inviato risultato file: %s\n", nomeFile);
+    //usleep(d->delay); //Mi serve ???? no
   }
 
   pthread_exit(NULL);

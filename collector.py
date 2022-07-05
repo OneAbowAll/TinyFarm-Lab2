@@ -1,7 +1,9 @@
-from concurrent.futures import thread
-from fileinput import close
-from os import getpid, kill
+#!/usr/bin/python3
+
+from http import client
+import os
 import sys, struct, socket, signal, threading
+import time
 
 HOST = "127.0.0.1"
 PORT = 57581
@@ -20,7 +22,7 @@ class ClientThread(threading.Thread):
 		data = recv_all(self.conn, 1)
 		type = data.decode("utf-8")
 		if(type == "!"):
-			kill(getpid(), signal.SIGINT)
+			os.kill(os.getpid(), signal.SIGINT)
 			self.closeConnection()
 			return
 
@@ -36,7 +38,7 @@ class ClientThread(threading.Thread):
 		print(f"{sum :>10} {filename :^10}")
 
 		self.closeConnection()
-		return # non servirebbe ma lo uso per chiarezza
+		return #teoricamente non serve, ma per leggibilità lo metto
 	
 	def closeConnection(self):
 		self.conn.shutdown(socket.SHUT_RDWR)
@@ -46,12 +48,11 @@ class ClientThread(threading.Thread):
 
 
 serverSocket = None
-clients = []
 
 def main(host = HOST, port = PORT):
 	global serverSocket
 	signal.signal(signal.SIGINT, closeServer)
-	
+
 	serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 	with serverSocket as s:
@@ -60,19 +61,19 @@ def main(host = HOST, port = PORT):
 			s.bind((host, port))
 			s.listen(1)
 
-			print("In ascolto per clients su indirizzo", HOST, "e porta", PORT, "...\n")
+			#print("In ascolto per clients su indirizzo", HOST, "e porta", PORT, "...\n")
 			while True:
 				conn, addr = s.accept()
 
 				#print("Connesso", addr, "!!")
 				t = ClientThread(conn, addr)
 				t.start()
-
-				clients.append(conn)
 		except OSError:
 			pass
+		
 
-def closeServer(s, f):
+
+def closeServer(_s, _f):
 	#for s in clients:
 	#	s.shutdown(socket.SHUT_RDWR)
 	#	s.close()
@@ -93,11 +94,5 @@ def recv_all(conn,n):
 	assert len(chunks) == n
 	return chunks
 
-#Se non vengono specificate porte o indirizzi usare quelli default
-#Questa roba non serve ma la tengo per sperimentare dopo :)
-if len(sys.argv) == 1:
-        main()
-elif len(sys.argv)==2:
-  main(sys.argv[1])
-elif len(sys.argv)==3:
-  main(sys.argv[1], int(sys.argv[2]))
+
+main()
