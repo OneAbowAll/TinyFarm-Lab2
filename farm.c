@@ -9,9 +9,9 @@
 #define MAX_NAME_LENGTH 255
 
 //Consigliabile usare solo per debugging su console separate
-#define DEBUG_THRD 0
-#define DEBUG_BUFF 0
-#define RICH_INFO 0
+#define DEBUG_THRD 1
+#define DEBUG_BUFF 1
+#define RICH_INFO 1
 
 #define print_debug_buffer if(DEBUG_BUFF) fprintf
 #define print_debug_thread if(DEBUG_BUFF) fprintf
@@ -148,7 +148,7 @@ int main(int argc, char *argv[])
     xsem_wait(&sem_free, QUI);
 
     strcpy(files[pIndex++ % qlen], argv[i]);
-    print_debug_buffer(stdout, "Scritto nel buffer %s \n", files[(pIndex - 1) % qlen]);
+    print_debug_buffer(stdout, "Scritto nel buffer %s alla pos %d \n", files[(pIndex - 1) % qlen], ((pIndex-1)%qlen));
 
     xsem_post(&sem_items, QUI);
   }
@@ -159,7 +159,7 @@ int main(int argc, char *argv[])
     xsem_wait(&sem_free, QUI);
 
     strcpy(files[pIndex++ % qlen], "-1");
-    print_debug_buffer(stdout, "Scritto nel buffer %s \n", files[(pIndex - 1) % qlen]);
+    print_debug_buffer(stdout, "Scritto nel buffer %s alla pos %d \n", files[(pIndex - 1) % qlen], ((pIndex-1)%qlen));
 
     xsem_post(&sem_items, QUI);
   }
@@ -221,7 +221,7 @@ void *worker(void *arg)
   int skt;
   
   int f;
-  char *nomeFile = "-1";
+  char *nomeFile = malloc(sizeof(char) * MAX_NAME_LENGTH);
   long sum = 0;
 
   while (true)
@@ -230,7 +230,9 @@ void *worker(void *arg)
     xsem_wait(d->sem_items, QUI);
     xpthread_mutex_lock(d->mutex, QUI);
 
-    nomeFile = d->files[*(d->cIndex) % d->qlen];
+    //nomeFile = d->files[*(d->cIndex) % d->qlen];
+    
+    strcpy(nomeFile, d->files[*(d->cIndex) % d->qlen]);
     *(d->cIndex) += 1;
 
     xpthread_mutex_unlock(d->mutex, QUI);
@@ -275,7 +277,8 @@ void *worker(void *arg)
     print_info(stdout, "Inviato risultato file: %s\n", nomeFile);
     //usleep(d->delay); //Mi serve ???? no
   }
-
+  
+  free(nomeFile);
   pthread_exit(NULL);
 }
 
