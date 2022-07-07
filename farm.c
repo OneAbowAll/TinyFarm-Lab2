@@ -172,7 +172,7 @@ int main(int argc, char *argv[])
   }
   
   //Chiudo il signalHandler
-  pthread_kill(sigHandler, SIGINT);
+  if(stop == 0){ pthread_kill(sigHandler, SIGINT); }
   xpthread_join(sigHandler, NULL, QUI);
   
   closeServer();
@@ -283,6 +283,27 @@ void *worker(void *arg)
 }
 
 /*
+                      ======= PROMEMORIA PER IL DAVIDE DEL FUTURO =======
+
+  (*) Perchè ho inviato la variabile sum con due messaggi diversi?
+
+      htonl() restituisce un unsigned int da 32 bit, tuttavia io ho bisogno di inviare 64 bit (8 byte, necessari per poter rappresentare numeri tipo 9876543210.
+      Questo significa che un long in c, che è da 64 bit, non viene inviato del tutto (non so bene se il numero veniva troncato al 32-esimo bit
+      o se veniva fatto arrotondato al max valore che poteva avere uint_32, testando su python mi sembra che venga arrotondato).
+
+      Quindi quando su python provavo a chiedere per 8 byte da convertire in un long long (perchè la struct di python per un long usa solo 4 byte)
+      ricevava sostanzialmente roba senza senso.
+
+      La mia soluzione consiste nel inviare sum in 2 messaggi da 4 byte ciascuno; sul server ho quindi due scelte o aspetto 2 messaggi da 4 byte che vado
+      a ricomporre o aspetto direttamente 8 byte.
+
+      La seconda soluzione era quella di convertire tutto in una stringa, insieme al nome file, per poi inviarla al server
+      per farla stampare. Secondo me questa cosa va contro quello che mi è stato richiesto dall'esercizio.
+
+*/
+
+
+/*
 void logBuffer(char** buffer, int qlen, int cIndex, int pIndex, sem_t *free, sem_t *item){
   FILE *f = fopen("bufferLog.txt", "a");
 
@@ -319,24 +340,3 @@ void logBuffer(char** buffer, int qlen, int cIndex, int pIndex, sem_t *free, sem
 
   fclose(f);
 }*/
-
-
-/*
-                      ======= PROMEMORIA PER IL DAVIDE DEL FUTURO =======
-
-  (*) Perchè ho inviato la variabile sum con due messaggi diversi?
-
-      htonl() restituisce un unsigned int da 32 bit, tuttavia io ho bisogno di inviare 64 bit (8 byte, necessari per poter rappresentare numeri tipo 9876543210.
-      Questo significa che un long in c, che è da 64 bit, non viene inviato del tutto (non so bene se il numero veniva troncato al 32-esimo bit
-      o se veniva fatto arrotondato al max valore che poteva avere uint_32, testando su python mi sembra che venga arrotondato).
-
-      Quindi quando su python provavo a chiedere per 8 byte da convertire in un long long (perchè la struct di python per un long usa solo 4 byte)
-      ricevava sostanzialmente roba senza senso.
-
-      La mia soluzione consiste nel inviare sum in 2 messaggi da 4 byte ciascuno; sul server ho quindi due scelte o aspetto 2 messaggi da 4 byte che vado
-      a ricomporre o aspetto direttamente 8 byte.
-
-      La seconda soluzione era quella di convertire tutto in una stringa, insieme al nome file, per poi inviarla al server
-      per farla stampare. Secondo me questa cosa va contro quello che mi è stato richiesto dall'esercizio.
-
-*/
