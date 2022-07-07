@@ -9,9 +9,9 @@
 #define MAX_NAME_LENGTH 255
 
 //Consigliabile usare solo per debugging su console separate
-#define DEBUG_THRD 1
-#define DEBUG_BUFF 1
-#define RICH_INFO 1
+#define DEBUG_THRD 0
+#define DEBUG_BUFF 0
+#define RICH_INFO 0
 
 #define print_debug_buffer if(DEBUG_BUFF) fprintf
 #define print_debug_thread if(DEBUG_BUFF) fprintf
