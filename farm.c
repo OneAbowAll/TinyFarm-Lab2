@@ -41,7 +41,7 @@ volatile sig_atomic_t stop = 0;
 
 int main(int argc, char *argv[])
 {
-  #pragma region Input Management
+  //#pragma region Input Management
 
   int opt;
   int nthread = 4, qlen = 8, delay = 0;
@@ -88,7 +88,7 @@ int main(int argc, char *argv[])
   }
   print_info(stdout, "]\n\n");
 
-  #pragma endregion
+  //#pragma endregion
 
   /* Gestione segnali
   struct sigaction sa;
