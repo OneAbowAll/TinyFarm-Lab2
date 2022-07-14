@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-from http import client
 import os
 import sys, struct, socket, signal, threading
 import time
